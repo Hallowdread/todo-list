@@ -12,6 +12,7 @@ body {
     background-image: linear-gradient(120deg, #e2c35d, #d88771);
     color: #fff;
     min-height: 100vh;
+    width: ;
 }
 
 /* Header Style */
@@ -32,7 +33,7 @@ h1 {
 /* Form & Button Style */
 
 form input, form button {
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.3rem;
     border: none;
     font-size: 1.3rem;
     background: #fff;
@@ -50,4 +51,59 @@ form button {
 form button:hover {
     color: #fff;
     background: #e2c35d ;
+}
+
+/* Todo Styles */
+
+.todo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo {
+    list-style: none;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.todo-item  {
+    padding: 0.2rem 1rem;
+}
+
+/* Button Styles */
+
+.check-btn, .delete-btn {
+    background: rgb(216, 71, 71);
+    color: #fff;
+    border: none;
+    padding: 0.9rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.check-btn {
+    background: rgb( 73, 204, 73);
+}
+
+/* Button hover */
+
+.check-btn:hover {
+    background: rgb(4, 241, 4);
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background: rgb(247, 5, 5);
+    color: #fff;
 }

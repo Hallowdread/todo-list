@@ -73,13 +73,14 @@ form button:hover {
 
 .todo li {
     flex: 1;
+    order: 2;
 }
 
 .todo-item  {
     padding: 0.2rem 1rem;
 }
 
-/* Button Styles */
+/* Check & Delete Button Styles */
 
 .check-btn, .delete-btn {
     background: rgb(216, 71, 71);
@@ -93,8 +94,16 @@ form button:hover {
 
 .check-btn {
     background: rgb( 73, 204, 73);
+    order: 1;
 }
 
+.delete-btn {
+    order: 3;
+} 
+
+.fa-square-check, .fa-trash {
+    pointer-events: none;
+}
 /* Button hover */
 
 .check-btn:hover {
@@ -106,3 +115,16 @@ form button:hover {
     background: rgb(247, 5, 5);
     color: #fff;
 }
+
+/* CHECK & DELETE ANIMATION */
+
+.completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.delete {
+    transform: translateX(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+

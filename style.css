@@ -116,6 +116,16 @@ form button:hover {
     color: #fff;
 }
 
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.delete {
+    transform: translateX(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
 /* Media Queries */
 
 @media(max-width: 375px) {

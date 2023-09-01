@@ -10,4 +10,6 @@ The webapp is a simple todo list that:
 . Deletes Todos
 . Saves the Todos in the local storage....
 
+Here's the hosted site: https://hallowdread.github.io/todo-list/
+
 You can clone the website or download the zip file....

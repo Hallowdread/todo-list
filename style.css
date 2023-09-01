@@ -115,3 +115,36 @@ form button:hover {
     background: rgb(247, 5, 5);
     color: #fff;
 }
+
+/* Media Queries */
+
+@media(max-width: 375px) {
+
+    body {
+        margin: 20px auto;
+        
+    }
+
+    form {
+        overflow-x: hidden;
+        margin: 20px auto;
+    }
+}
+
+@media(max-width: 360px) {
+
+    body {
+        margin: 20px auto ;
+    }
+
+    form {
+        overflow-x: hidden;
+        margin: 20px 10px;
+    }
+
+    form input {
+        max-width: 220px;
+    } 
+
+
+}
